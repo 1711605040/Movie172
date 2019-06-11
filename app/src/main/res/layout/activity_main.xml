@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#ff0000"
+        android:text="标题"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:gravity="center"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="50dp"
+        ></android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:text="内地票房"
+            style="@style/style_RadioButton"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rb_count"
+            android:text="香港票房"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_video"
+            android:text="周末票房（内地）"
+            style="@style/style_RadioButton"/>
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:text="周末票房（北美）"
+            style="@style/style_RadioButton"/>
+    </RadioGroup>
+
+
+
+</android.support.constraint.ConstraintLayout>
