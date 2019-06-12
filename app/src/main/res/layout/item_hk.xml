@@ -9,7 +9,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="120dp"
+                android:layout_width="250dp"
                 android:layout_height="match_parent"
                 android:text="电影名称:"
                 android:textSize="18sp"
@@ -29,9 +29,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="120dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="上映时间:"
+            android:text="内地的周票房（单位：万元）:"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
@@ -49,9 +49,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="120dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="总票房:"
+            android:text="内地周票房的周期::"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
@@ -69,9 +69,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="120dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="实时票房:"
+            android:text="内地的已上映天数:"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
@@ -89,9 +89,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="120dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="票房占比:"
+            android:text="香港的本周票房（单位/万港元）:"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
@@ -109,9 +109,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="120dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="排名占比:"
+            android:text="香港周票房的周期:"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
@@ -129,9 +129,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="120dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="上座率:"
+            android:text="香港的总票房（单位/万港元）:"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
@@ -142,5 +142,24 @@
             android:layout_height="match_parent"
             android:text="内容"
             android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:text="在香港的上映天数:"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/hktianshu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="内容"
+        android:gravity="center"/>
     </LinearLayout>
     </LinearLayout>
