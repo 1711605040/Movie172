@@ -17,11 +17,11 @@
                 android:textColor="@android:color/black"/>
 
             <TextView
-                android:id="@+id/name"
+                android:id="@+id/movie_name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="内容"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="内容" />
         </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,13 +31,13 @@
         <TextView
             android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="内地的周票房（单位：万元）:"
+            android:text="在香港已上映的天数"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
 
         <TextView
-            android:id="@+id/time"
+            android:id="@+id/daysOfHK"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="内容"
@@ -51,53 +51,13 @@
         <TextView
             android:layout_width="250dp"
             android:layout_height="match_parent"
-            android:text="内地周票房的周期::"
+            android:text="香港的本周票房(单位/万港元)::"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@android:color/black"/>
 
         <TextView
-            android:id="@+id/zong"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="内容"
-            android:gravity="center"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="match_parent"
-            android:text="内地的已上映天数:"
-            android:textSize="18sp"
-            android:gravity="center"
-            android:textColor="@android:color/black"/>
-
-        <TextView
-            android:id="@+id/shisi"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="内容"
-            android:gravity="center"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="match_parent"
-            android:text="香港的本周票房（单位/万港元）:"
-            android:textSize="18sp"
-            android:gravity="center"
-            android:textColor="@android:color/black"/>
-
-        <TextView
-            android:id="@+id/zanbi"
+            android:id="@+id/sumOfWeekHK"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="内容"
@@ -117,49 +77,10 @@
             android:textColor="@android:color/black"/>
 
         <TextView
-            android:id="@+id/paiming"
+            android:id="@+id/weekPeriodOfHK"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="内容"
             android:gravity="center"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="match_parent"
-            android:text="香港的总票房（单位/万港元）:"
-            android:textSize="18sp"
-            android:gravity="center"
-            android:textColor="@android:color/black"/>
-
-        <TextView
-            android:id="@+id/shangzuo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="内容"
-            android:gravity="center"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal">
-    <TextView
-        android:layout_width="250dp"
-        android:layout_height="match_parent"
-        android:text="在香港的上映天数:"
-        android:textSize="18sp"
-        android:gravity="center"
-        android:textColor="@android:color/black"/>
-
-    <TextView
-        android:id="@+id/hktianshu"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="内容"
-        android:gravity="center"/>
-    </LinearLayout>
-    </LinearLayout>
+</LinearLayout>

@@ -1,20 +1,16 @@
 package cn.edu.gdpt.movie172;
 
 public class MovieBean {
-    private  int id;
     private  String movie_name;
-    private  int totle_office;
-    private  int real_office;
-    private  int office_ratio;
-    private  int show_rate;
-    private  int avg_set_view;
+    private  int daysOfHK;
+    private  int sumOfWeekHK;
+    private  int weekPeriodOfHK;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public MovieBean(String movie_name, int daysOfHK, int sumOfWeekHK, int weekPeriodOfHK) {
+        this.movie_name = movie_name;
+        this.daysOfHK = daysOfHK;
+        this.sumOfWeekHK = sumOfWeekHK;
+        this.weekPeriodOfHK = weekPeriodOfHK;
     }
 
     public String getMovie_name() {
@@ -25,43 +21,27 @@ public class MovieBean {
         this.movie_name = movie_name;
     }
 
-    public int getTotle_office() {
-        return totle_office;
+    public int getDaysOfHK() {
+        return daysOfHK;
     }
 
-    public void setTotle_office(int totle_office) {
-        this.totle_office = totle_office;
+    public void setDaysOfHK(int daysOfHK) {
+        this.daysOfHK = daysOfHK;
     }
 
-    public int getReal_office() {
-        return real_office;
+    public int getSumOfWeekHK() {
+        return sumOfWeekHK;
     }
 
-    public void setReal_office(int real_office) {
-        this.real_office = real_office;
+    public void setSumOfWeekHK(int sumOfWeekHK) {
+        this.sumOfWeekHK = sumOfWeekHK;
     }
 
-    public int getOffice_ratio() {
-        return office_ratio;
+    public int getWeekPeriodOfHK() {
+        return weekPeriodOfHK;
     }
 
-    public void setOffice_ratio(int office_ratio) {
-        this.office_ratio = office_ratio;
-    }
-
-    public int getShow_rate() {
-        return show_rate;
-    }
-
-    public void setShow_rate(int show_rate) {
-        this.show_rate = show_rate;
-    }
-
-    public int getAvg_set_view() {
-        return avg_set_view;
-    }
-
-    public void setAvg_set_view(int avg_set_view) {
-        this.avg_set_view = avg_set_view;
+    public void setWeekPeriodOfHK(int weekPeriodOfHK) {
+        this.weekPeriodOfHK = weekPeriodOfHK;
     }
 }
