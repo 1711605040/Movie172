@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/tv_main_title"
         android:layout_width="match_parent"
@@ -45,16 +44,16 @@
 
         <RadioButton
             android:id="@+id/rb_count"
-            android:text="香港票房"
+            android:text="当日票房占比"
             style="@style/style_RadioButton"/>
 
         <RadioButton
             android:id="@+id/rb_video"
-            android:text="周末票房（内地）"
+            android:text="当日票房统计"
             style="@style/style_RadioButton"/>
         <RadioButton
             android:id="@+id/rb_me"
-            android:text="周末票房（北美）"
+            android:text="院线总票房统计"
             style="@style/style_RadioButton"/>
     </RadioGroup>
 

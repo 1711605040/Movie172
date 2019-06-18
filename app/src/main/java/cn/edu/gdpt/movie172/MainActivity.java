@@ -6,6 +6,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -36,15 +37,15 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 1:
                         radioGroup.check(R.id.rb_count);
-                        tv_main_ttitle.setText("香港票房");
+                        tv_main_ttitle.setText("当日票房占比");
                         break;
                     case 2:
                         radioGroup.check(R.id.rb_video);
-                        tv_main_ttitle.setText("周末票房（内地）");
+                        tv_main_ttitle.setText("当日票房统计");
                         break;
                     case 3:
                         radioGroup.check(R.id.rb_me);
-                        tv_main_ttitle.setText("周末票房（北美）");
+                        tv_main_ttitle.setText("电影总票房统计");
                         break;
                 }
             }
